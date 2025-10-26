@@ -1,0 +1,120 @@
+/* dark-mode-toggle.css */
+
+/* ---------- */
+/* Light Mode */
+/* ---------- */
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    /* Default Light Mode Colors */
+    background-color: #f8f8f8;
+    color: #2c3e50;
+
+    transition: all 0.5s ease;
+}
+
+.card-container {
+    width: 100%;
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #ffffff; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+}
+
+h1 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Task List/Dashboard Elements */
+.task-list {
+    margin-top: 25px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #3498db;
+    transition: all 0.5s ease;
+}
+
+.task-item span { margin-left: 10px; }
+
+/* Toggle Button Base */
+.toggle-container {
+    display: flex; 
+    justify-content: flex-end; 
+    margin-bottom: 25px;
+}
+
+.toggle-btn {
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #f1c40f;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    line-height: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Containers & Light Mode Visibility */
+#light-icon, #dark-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#light-icon { opacity: 1; }
+#dark-icon { opacity: 0; } 
+
+
+/* --------- */
+/* DARK MODE */
+/* --------- */
+
+/* The 'dark' class is applied to the <html> tag by dark-mode-toggle.js */
+html.dark body {
+    background-color: #1b263b; /* Deep Blue Night Background */
+    color: #ecf0f1; /* Off-white text */
+}
+
+html.dark .card-container {
+    background-color: #283747; /* Darker Card BG */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+html.dark h1 {
+    color: #ffbf69; /* Warmer Gold/Orange Accent Header */
+}
+
+html.dark .task-item {
+    background-color: #1c2833;
+    border-left: 5px solid #ffbf69;
+}
+
+html.dark .toggle-btn {
+    background-color: #3a4759; /* Darker Button */
+}
+
+/* Dark Mode Icon Visibility Change */
+html.dark #light-icon { opacity: 0; }  
+html.dark #dark-icon { opacity: 1; }
