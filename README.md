@@ -6,6 +6,7 @@
     </picture>
   </a>
 </div>
+
 # Dark Mode Toggle
 A simple **Dark Mode Toggle** on a Daily Focus Board created using **HTML, CSS, and JS**
 
