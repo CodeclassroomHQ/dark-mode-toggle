@@ -13,9 +13,9 @@ A simple **Dark Mode Toggle** on a Daily Focus Board created using **HTML, CSS, 
 ![Dark Mode Toggle Demo](img/dark-mode-toggle-demo.gif)
 
 ## 📺 Full Code Walkthrough (YouTube Video)
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Watch the video](https://img.youtube.com/vi/dIDR4Ts21kE/hqdefault.jpg)](https://www.youtube.com/watch?v=dIDR4Ts21kE)
 
-👉 [Click here to watch the full YouTube tutorial!](https://www.youtube.com/watch?v=VIDEO_ID)
+👉 [Click here to watch the full YouTube tutorial!](https://www.youtube.com/watch?v=dIDR4Ts21kE)
 
 ## ✨ Level Up Your Skills with CodeClassroom!
 **Ready to dive deeper into tech?** CodeClassroom offers the most affordable and flexible way to learn coding with actual **dedicated live mentorship** in our cohort-based courses.
